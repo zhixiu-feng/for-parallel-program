@@ -4,6 +4,9 @@ using namespace std;
 
 int main()
 {
+    SetConsoleCP(CP_UTF8);
+    SetConsoleOutputCP(CP_UTF8);
+
     int repeat_time;
     cin >> repeat_time;
     for (int a = 0; a < repeat_time; a++)
